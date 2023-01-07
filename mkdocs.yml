@@ -25,6 +25,8 @@ theme:
 
 nav:
   - Inicio: index.md
+  - Teorías: teorias/index.md
+  - Prácticas:  practicas/index.md
   - Guías:
     - Comandos: guias/01/commands.md
     - Instalar Python: guias/02/instalar_python.md
