@@ -1,0 +1,51 @@
+site_name: Python 2023
+theme:
+  name: 'material'
+  logo: images/logo.png
+  favicon: images/favicon.ico
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticy
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: red
+      accent: red
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+nav:
+  - Inicio: index.md
+  - Guías:
+    - Comandos: guias/01_commands.md
+
+markdown_extensions: 
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - admonition
+  - codehilite
+  - def_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+plugins:
+  - mkdocs-video
+  - mkdocs-jupyter:
+      ignore_h1_titles: True
+      execute: False
