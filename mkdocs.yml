@@ -26,7 +26,8 @@ theme:
 nav:
   - Inicio: index.md
   - Guías:
-    - Comandos: guias/01_commands.md
+    - Comandos: guias/01/commands.md
+    - Instalar Python: guias/02/instalar_python.md
 
 markdown_extensions: 
   - attr_list
