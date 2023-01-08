@@ -34,6 +34,7 @@ nav:
     - Git básico: guias/04/git_basico.md
     - SSH: guias/05/ssh.md
     - SSH en Gitlab: guias/06/ssh_gitlab.md
+    - Entornos virtuales: guias/07/entornos_virtuales.md
 
 markdown_extensions: 
   - attr_list
