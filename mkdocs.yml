@@ -32,6 +32,8 @@ nav:
     - Instalar Python: guias/02/instalar_python.md
     - Instalar Git: guias/03/git.md
     - Git básico: guias/04/git_basico.md
+    - SSH: guias/05/ssh.md
+    - SSH en Gitlab: guias/06/ssh_gitlab.md
 
 markdown_extensions: 
   - attr_list

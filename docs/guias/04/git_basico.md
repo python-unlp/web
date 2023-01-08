@@ -104,7 +104,7 @@ compartirlo.
 Para usar GitHub de forma segura tienes dos opciones:
 
 - Generar una clave SSH y agregarla al usuario (Este es lo recomandado. Seguir
-  la guía de [SSH](02_ssh.md)).
+  la guía de [SSH](../05/ssh.md)).
 - Usar el método HTTP, pero deberás escribir tu usuario y contraseña para cada
   operación con el servidor Github.
 
