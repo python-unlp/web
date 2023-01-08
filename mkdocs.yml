@@ -30,6 +30,8 @@ nav:
   - Guías:
     - Comandos: guias/01/commands.md
     - Instalar Python: guias/02/instalar_python.md
+    - Instalar Git: guias/03/git.md
+    - Git básico: guias/04/git_basico.md
 
 markdown_extensions: 
   - attr_list
