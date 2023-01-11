@@ -1,4 +1,4 @@
-# Agregar la clave SSH en Gitlab
+# Agregar clave SSH a Gitlab
 
 1. Primero necesitamos crear nuestra clave SSH y copiarla en el clipboard. Esto
    se puede ver en [esta guía](../05/ssh.md).

@@ -7,34 +7,32 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticy
   palette:
-    - scheme: default
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
     - scheme: slate
-      primary: red
-      accent: red
+      primary: blue grey
       toggle:
-        icon: material/toggle-switch
+        icon: material/brightness-4
         name: Switch to light mode
+    - scheme: default
+      primary: blue grey
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
   font:
     text: Roboto
     code: Roboto Mono
 
 nav:
   - Inicio: index.md
-  - Teorías: teorias/index.md
-  - Prácticas:  practicas/index.md
+  - teorias/index.md
+  - practicas/index.md
   - Guías:
-    - Comandos: guias/01/commands.md
-    - Instalar Python: guias/02/instalar_python.md
-    - Instalar Git: guias/03/git.md
-    - Git básico: guias/04/git_basico.md
-    - SSH: guias/05/ssh.md
-    - SSH en Gitlab: guias/06/ssh_gitlab.md
-    - Entornos virtuales: guias/07/entornos_virtuales.md
+    - guias/01/commands.md
+    - guias/02/instalar_python.md
+    - guias/03/git.md
+    - guias/04/git_basico.md
+    - guias/05/ssh.md
+    - guias/06/ssh_gitlab.md
+    - guias/07/entornos_virtuales.md
 
 markdown_extensions: 
   - attr_list
@@ -53,6 +51,7 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.superfences
 plugins:
+  - search
   - mkdocs-video
   - mkdocs-jupyter:
       ignore_h1_titles: True

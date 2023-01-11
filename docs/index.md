@@ -1,4 +1,4 @@
-# ¡Bienvenido!
+# Python 2023
 
 En este portal encontrarás el contenido de la cátedra para este 2023.
 
