@@ -33,6 +33,7 @@ nav:
     - guias/05/ssh.md
     - guias/06/ssh_gitlab.md
     - guias/07/entornos_virtuales.md
+    - guias/08/manejo_de_paquetes.md
 
 markdown_extensions: 
   - attr_list
