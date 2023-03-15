@@ -1,6 +1,6 @@
 # Instalación de Python
 
-Este este año en la materia utilizaremos la versión de **Python 3.10.9**.
+Este este año en la materia utilizaremos la versión de **Python 3.11.X**.
 
 En esta guía vamos a ver distintas formas de realizar la instalación de
 la versión específica de **Python** que se utilizará en la cátedra para distintos
@@ -147,11 +147,12 @@ sistema operativo por defecto.
 
 Estos son los enlaces para los ejecutables de Windows:
 
-- [Instalador ejecutable para Windows 32bits](https://www.python.org/ftp/python/3.10.9/python-3.10.9.exe)
-- [Instalador ejecutable para Windows 64bits](https://www.python.org/ftp/python/3.10.9/python-3.10.9-amd64.exe)
+- [Instalador ejecutable para Windows 32bits](https://www.python.org/ftp/python/3.11.2/python-3.11.2.exe)
+- [Instalador ejecutable para Windows 64bits](https://www.python.org/ftp/python/3.11.2/python-3.11.2-amd64.exe)
+- [Instalador ejecutable para AMR64](https://www.python.org/ftp/python/3.11.2/python-3.11.2-arm64.exe)
 
 Si necesita alguna alternativa distinta pueda obtener más opciones en el
-[siguiente enlace](https://www.python.org/downloads/release/python-3109/).
+[siguiente enlace](https://www.python.org/downloads/release/python-3112/).
 
 Al descargar el instalador debe ejecutarlo y seguir los pasos que ofrece.
 La primer ventana que se puede visualizar el la siguiente:
