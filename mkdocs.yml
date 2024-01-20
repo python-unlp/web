@@ -1,6 +1,6 @@
-site_name: Python 2023
+site_name: Python UNLP
 theme:
-  name: 'material'
+  name: "material"
   logo: images/logo.png
   favicon: images/favicon.ico
   features:
@@ -15,7 +15,7 @@ theme:
     - scheme: default
       primary: blue grey
       toggle:
-        icon: material/brightness-7 
+        icon: material/brightness-7
         name: Switch to dark mode
   font:
     text: Roboto
@@ -23,23 +23,21 @@ theme:
 
 nav:
   - Inicio: index.md
-  - teorias/index.md
-  - practicas/index.md
   - Guías:
-    - guias/01/commands.md
-    - guias/02/instalar_python.md
-    - guias/03/git.md
-    - guias/04/git_basico.md
-    - guias/05/ssh.md
-    - guias/06/ssh_gitlab.md
-    - guias/07/entornos_virtuales.md
-    - guias/08/manejo_de_paquetes.md
-    - guias/09/guias_de_estilo.md
-    - guias/10/merge_request.md
-    - guias/11/jupyter_notebook.md
-    - guias/12/buenas_practicas.md
+      - guias/01/commands.md
+      - guias/02/instalar_python.md
+      - guias/03/git.md
+      - guias/04/git_basico.md
+      - guias/05/ssh.md
+      - guias/06/ssh_gitlab.md
+      - guias/07/entornos_virtuales.md
+      - guias/08/manejo_de_paquetes.md
+      - guias/09/guias_de_estilo.md
+      - guias/10/merge_request.md
+      - guias/11/jupyter_notebook.md
+      - guias/12/buenas_practicas.md
 
-markdown_extensions: 
+markdown_extensions:
   - attr_list
   - md_in_html
   - toc:
@@ -58,15 +56,12 @@ markdown_extensions:
 plugins:
   - search
   - mkdocs-video
-  - mkdocs-jupyter:
-      ignore_h1_titles: True
-      execute: False
 extra:
   social:
     - icon: fontawesome/brands/gitlab
-      link: https://gitlab.catedras.linti.unlp.edu.ar/python2023/
+      link: https://gitlab.catedras.linti.unlp.edu.ar/python2024/
     - icon: fontawesome/brands/discord
-      link: "#"
+      link: "https://discord.gg/WW2v5Rq3Ke"
     - icon: fontawesome/solid/book
       link: "#"
     - icon: fontawesome/solid/envelope
