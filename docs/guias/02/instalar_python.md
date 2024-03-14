@@ -116,10 +116,10 @@ para eso abrir PowerShell como administrador y ejecutar:
 
 4. Re abrir PowerShell
 5. Correr `pyenv --version` para verificar si la instalación terminó
-6. Corer `pyenv install -l` para verificar la lista de versiones de **Python**
+6. Correr `pyenv install -l` para verificar la lista de versiones de **Python**
    soportadas por `pyenv-win`
 7. Correr `pyenv install <version>` para instalar la versión de **Python** que desea
-8. Corer `pyenv global <version>` para setear esa versión de **Python** como global
+8. Correr `pyenv global <version>` para setear esa versión de **Python** como global
 9. Verifique que versión de **Python** está utilizando en su path
    ```plaintext
    > pyenv version
