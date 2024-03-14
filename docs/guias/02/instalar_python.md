@@ -101,24 +101,32 @@ La herramienta es [`pyenv-win`](https://github.com/pyenv-win/pyenv-win)
 Utilizar **PowerShell** para la instalación en windows es la forma recomendada
 en la [documentación de la herramienta](https://github.com/pyenv-win/pyenv-win#quick-start).
 
-1. Instalar `pyenv-win` en PowerShell.
+1. Habilitar la ejecución de scripts en PowerShell, para eso abrir PowerShell como administrador
+y ejecutar:
+   ```pwsh
+   Set-ExecutionPolicy RemoteSigned
+   ```
+
+2. Cerrar la ventana anterior y abrir PowerShell como usuario normal (no administrador)
+
+3. Instalar `pyenv-win` en PowerShell ejecutando el siguiente comando:
    ```pwsh
    Invoke-WebRequest -UseBasicParsing -Uri "https://raw.githubusercontent.com/pyenv-win/pyenv-win/master/pyenv-win/install-pyenv-win.ps1" -OutFile "./install-pyenv-win.ps1"; &"./install-pyenv-win.ps1"
    ```
 
-2. Re abrir PowerShell
-3. Correr `pyenv --version` para verificar si la instalación terminó
-4. Corer `pyenv install -l` para verificar la lista de versiones de **Python**
+4. Re abrir PowerShell
+5. Correr `pyenv --version` para verificar si la instalación terminó
+6. Corer `pyenv install -l` para verificar la lista de versiones de **Python**
    soportadas por `pyenv-win`
-5. Correr `pyenv install <version>` para instalar la versión de **Python** que desea
-6. Corer `pyenv global <version>` para setear esa versión de **Python** como global
-7. Verifique que versión de **Python** está utilizando en su path
+7. Correr `pyenv install <version>` para instalar la versión de **Python** que desea
+8. Corer `pyenv global <version>` para setear esa versión de **Python** como global
+9. Verifique que versión de **Python** está utilizando en su path
    ```plaintext
    > pyenv version
    <version> (set by \path\to\.pyenv\pyenv-win\.python-version)
    ```
 
-8. Verifique que esa versión de **Python** está funcionando
+10. Verifique que esa versión de **Python** está funcionando
    ```plaintext
    > python -c "import sys; print(sys.executable)"
    \path\to\.pyenv\pyenv-win\versions\<version>\python.exe
@@ -143,6 +151,7 @@ sistema operativo por defecto.
 
     Les recomendamos que utilicen un manejador de versiones para estos operativos.
 
+<!--
 ### Windows
 
 Estos son los enlaces para los ejecutables de Windows:
@@ -210,25 +219,25 @@ Debería aparecer algo como esto:
 </center>
 
 En esta terminal interactiva ya podemos ejecutar código Python.
-
+-->
 ## Uso de `pyenv`
 
 Para buscar que versión de **Python** queremos instalar podemos usar:
 
 ```bash
-pyenv install 3.6.8
+pyenv install 3.11.7
 ```
 
 Ahora podemos seleccionar esta versión como global
 
 ```bash
-pyenv global 3.6.8
+pyenv global 3.11.7
 ```
 
 o como versión local en el directorio que nos encontremos
 
 ```bash
-pyenv local 3.6.8
+pyenv local 3.11.7
 ```
 
 Pueden encontrar la documentación completa del uso en la [documentación oficial
