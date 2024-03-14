@@ -101,8 +101,8 @@ La herramienta es [`pyenv-win`](https://github.com/pyenv-win/pyenv-win)
 Utilizar **PowerShell** para la instalación en windows es la forma recomendada
 en la [documentación de la herramienta](https://github.com/pyenv-win/pyenv-win#quick-start).
 
-1. Habilitar la ejecución de scripts en PowerShell, para eso abrir PowerShell como administrador
-y ejecutar:
+1. Habilitar la ejecución de scripts remotos en PowerShell (necesario para el paso 3),
+para eso abrir PowerShell como administrador y ejecutar:
    ```pwsh
    Set-ExecutionPolicy RemoteSigned
    ```
