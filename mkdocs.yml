@@ -23,6 +23,7 @@ theme:
 
 nav:
   - Inicio: index.md
+  - Explicaciones: explicaciones.md
   - Guías:
       - guias/01/commands.md
       - guias/02/instalar_python.md
