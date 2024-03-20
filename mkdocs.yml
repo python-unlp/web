@@ -33,6 +33,7 @@ nav:
       - guias/06/ssh_gitlab.md
       - guias/07/entornos_virtuales.md
       - guias/08/manejo_de_paquetes.md
+      - guias/13/modulos_y_paquetes.md
       - guias/09/guias_de_estilo.md
       - guias/10/merge_request.md
       - guias/11/jupyter_notebook.md
@@ -54,6 +55,7 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - sane_lists
 plugins:
   - search
   - mkdocs-video
