@@ -1,8 +1,8 @@
 # Entornos virtuales
 
-**Virtualenv** es una herramienta usada para crear un ambiente aislado de
+**venv** es una herramienta usada para crear un ambiente aislado de
 **Python**. Este ambiente tiene su propio directorio de instalación que no
-comparte librerías con otros ambientes **virtualenv**.
+comparte librerías con otros ambientes virtuales ni con el sistema operativo.
 
 Esto tiene la ventaja que separa las librerías específicas que necesitamos en
 cada entorno virtual.
@@ -14,27 +14,23 @@ librería.
 Por ejemplo, podemos tener un proyecto que hicimos hace un tiempo que usa una
 versión de `numpy` que ahora no es la última. Para ese proyecto puede estar
 perfecta esa versión y algunas veces puede ser peligroso actualizar una
-librería. Ahora si vamos a arrancar un nuevo proyecto seguramente queremos poder
-usar la última versión de `numpy`.
+librería. Por el contrario si vamos a arrancar un nuevo proyecto seguramente
+queremos poder usar la última versión de `numpy`.
 
-La solución que nos da **virtualenv** es crear la cantidad de directorios
-virtuales que queramos con su versión de **Python** y sus librerías externas de
-forma aislada.
+La solución que nos da **venv** es crear la cantidad de directorios
+virtuales que queramos con su propia versión de **Python** y sus propias librerías
+externas de forma aislada.
 
-Una práctica muy común con **virtualenv** es tener un entorno virtual por
+Una práctica muy común con **venv** es tener un entorno virtual por
 proyecto aislando cada proyecto y evitando cualquier problema de compatibilidad.
 
 ## ¿Cómo crear un entorno virtual?
 
-Primero necesitamos tener disponible la librería **virtualenv**. La instalamos
-de la siguiente manera:
-
-```bash
-pip install virtualenv
-```
-
 Para crear un entorno virtual primero tenemos que ubicarnos en el directorio
-donde está el código de nuestra aplicación
+donde está el código de nuestra aplicación.
+
+En este ejemplo crearemos un directorio para un nuevo proyecto y nos ubicaremos
+en el mismo:
 
 ```bash
 mkdir mi_proyecto
@@ -45,16 +41,21 @@ Ahora vamos a crear un directorio virtual llamado `venv` para la versión de
 **Python** que hayamos configurado como global
 
 ```bash
-virtualenv -p python venv
+python -m venv venv
 ```
 
 !!! warning
     Recuerden tener en cuenta tener configurada la versión de Python con la que
-    quieren arrancar el proyecto. En nuestro caso la versión `3.10.2`
+    quieren arrancar el proyecto. En nuestro caso la versión `3.11`
 
     Se pueden asegurar ejecutando:
 
     `$ python --version`
+
+    Si la versión no coincide e instalaron **Python** con venv, pueden usar
+    `pyenv global 3.11.x` para configurarla o bien `pyenv shell 3.11.x` para
+    usarla temporalmente (donde `x` es el último dígito de la versión específica
+    que instalaron).
 
 Ya estamos listos para usar nuestro entorno virtual. Tanto la versión de
 **Python** con las librerías se van a almacenar dentro del directorio `venv`
