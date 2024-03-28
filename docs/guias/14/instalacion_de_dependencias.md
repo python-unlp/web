@@ -5,7 +5,7 @@
 ### Objetivo
 La presente guía pretende ser un punteo de los pasos a seguir para añadir cualquier dependencia/librería a nuestro sistema.
 
-Cuando hablamos de dependencia -en este documento- nos referimos justamente a cualquier librería externa y NO incluida de manera estándar por Python que nuestro sistema la requiere para funcionar.
+Cuando hablamos de dependencia -en este documento- nos referimos justamente a cualquier librería externa NO incluida de manera estándar por Python que nuestro sistema la requiere para funcionar.
 
 Algunos de los ejemplos más comunes es la incorporación de:
 
@@ -55,11 +55,11 @@ Algunos de los ejemplos más comunes es la incorporación de:
     └── view.py
 ```
 
-6. En caso de trabajar en equipo cualquier integrante del equipo ante un cambio en este archivo debe ejecutar en su entorno virtual:
+6. En caso de trabajar en equipo cualquier nuevo integrante del mismo (o ante un cambio en este archivo) debe ejecutar en su entorno virtual:
 	```bash
 	pip install -r requirements.txt
 	```
-
+	Este comando posibilita instalar todas las dependencias del sistema evitando tener que ingresarlas una por una.
 
 **Procurar siempre tener el **requirements.txt** actualizado a las necesidades de nuestro sistema, ya que en él se establecen las librerías y versiones para las cuales garantizamos que nuestro sistema funciona correctamente.**
 
