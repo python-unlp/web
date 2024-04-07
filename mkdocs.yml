@@ -39,6 +39,7 @@ nav:
       - guias/10/merge_request.md
       - guias/11/jupyter_notebook.md
       - guias/12/buenas_practicas.md
+      - guias/15/list_comprehensions_y_otras.md
 
 markdown_extensions:
   - attr_list
