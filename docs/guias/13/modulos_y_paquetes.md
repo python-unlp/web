@@ -85,7 +85,7 @@ programa. La estructura de archivos y directorios dentro de `noticias_unlp` ser�
     └── view.py
 ```
 
-Éste script puede importar los otros con imports absolutos, por ejemplo:
+Éste script puede importar a los módulos usando imports absolutos, por ejemplo:
 
 ```python
 import unlp_news.reader
@@ -94,7 +94,7 @@ import unlp_news.reader
 o bien
 
 ```python
-from unlp.news import reader
+from unlp_news import reader
 ```
 
 Y deberá contener el programa principal que ejecuta al resto de la funcionalidad.
