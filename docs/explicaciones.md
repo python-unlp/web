@@ -1,5 +1,17 @@
 # Explicaciones prácticas
 
+## 06 - Git para grupos de trabajo
+
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/k-s7KDH-mhE" frameborder="0" allowfullscreen></iframe>
+
+## 05 - Trabajo Integrador - Lectura de csv
+
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/FERgoLiq9SE" frameborder="0" allowfullscreen></iframe>
+
+## 04 - Archivos
+
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/K6FQ0Yl50Po" frameborder="0" allowfullscreen></iframe>
+
 ## 03 - Estructura de proyecto y pattern matching
 
 <iframe width="1280" height="720" src="https://www.youtube.com/embed/79fdxnDP2P4" frameborder="0" allowfullscreen></iframe>
