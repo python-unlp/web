@@ -1,6 +1,10 @@
 # Explicaciones prácticas
 
-## 07 - 07 - Trabajo Integrador 2/2
+## 08 - Streamlit - session_state y estrategia para la pantalla "Juego"
+
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/CMQ1aQo0rKc" frameborder="0" allowfullscreen></iframe>
+
+## 07 - Trabajo Integrador 2/2
 
 <iframe width="1280" height="720" src="https://www.youtube.com/embed/On1qEHDX8rc" frameborder="0" allowfullscreen></iframe>
 
