@@ -1,3 +1,10 @@
+---
+date: 2024-03-05
+categories:
+  - Python
+  - List comprehensions
+---
+
 # List comprehensions y otras
 
 La notación por comprensión en Python esta directamente basada en la notación matemática de conjuntos por comprensión.
@@ -7,6 +14,7 @@ Esta guía se puede leer de 2 formas distintas dependiendo del tiempo y dedicaci
 1. Completa: Da un panorama completo que ayuda a entender por qué la sintáxis de las list comprehensions es como es y la contrasta con otras formas de resolver el mismo problema.
 2. A partir de "Introducción menos ñoña": Muestra como usar las comprehensions de forma directa.
 
+<!-- more -->
 
 ## Introducción ñoña
 

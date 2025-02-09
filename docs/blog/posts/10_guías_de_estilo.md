@@ -1,3 +1,12 @@
+---
+date: 2023-05-10
+categories:
+  - Python
+  - Style Guide
+  - PEP8
+  - PEP257
+---
+
 # Guía de estilos
 
 Las guías de estilo ayudan a los equipos de desarrollo a escribir código
@@ -7,6 +16,8 @@ equipo.
 Python define en **PEP8** como guía de estilos base y en **PEP257** la convención
 para Docstrings. Teniendo esta referencia vamos a mencionar las normas mas
 importantes que esperamos que traten de cumplir en el trabajo.
+
+<!-- more -->
 
 Antes de comenzar a nombrarlas es necesario decir de una regla base a todas las
 siguientes a la hora de desarrollar una aplicación en equipo: **ser

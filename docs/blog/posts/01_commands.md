@@ -1,3 +1,10 @@
+---
+date: 2022-08-01
+categories:
+  - Bash
+  - Terminal
+---
+
 # Comandos
 
 En esta guía vamos a dejar una lista de comandos de consola que posiblemente
@@ -5,9 +12,11 @@ van a utilizar.
 Los comando son específicamente de Linux, pero los pueden usar en `GitBash` si
 trabajan con Windows.
 
+<!-- more -->
+
 ## Comandos de consola
 
-```
+```bash
 # Imprimir el directorio actual.
 pwd
 

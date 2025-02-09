@@ -1,5 +1,6 @@
 site_name: Python UNLP
 theme:
+  language: es
   name: "material"
   logo: images/logo.png
   favicon: images/favicon.ico
@@ -10,62 +11,47 @@ theme:
     - scheme: slate
       primary: blue grey
       toggle:
-        icon: material/brightness-4
+        icon: material/lightbulb-outline
         name: Switch to light mode
     - scheme: default
       primary: blue grey
       toggle:
-        icon: material/brightness-7
+        icon: material/lightbulb
         name: Switch to dark mode
   font:
     text: Roboto
     code: Roboto Mono
-
 nav:
   - Inicio: index.md
   - Explicaciones: explicaciones.md
-  - Guías:
-      - guias/01/commands.md
-      - guias/02/instalar_python.md
-      - guias/03/git.md
-      - guias/04/git_basico.md
-      - guias/05/ssh.md
-      - guias/06/ssh_gitlab.md
-      - guias/07/entornos_virtuales.md
-      - guias/08/manejo_de_paquetes.md
-      - guias/13/modulos_y_paquetes.md
-      - guias/14/instalacion_de_dependencias.md
-      - guias/09/guias_de_estilo.md
-      - guias/10/merge_request.md
-      - guias/11/jupyter_notebook.md
-      - guias/12/buenas_practicas.md
-      - guias/15/list_comprehensions_y_otras.md
-
+  - Blog:
+      - blog/index.md
 markdown_extensions:
   - attr_list
-  - md_in_html
-  - toc:
-      permalink: true
-  - admonition
-  - codehilite
-  - def_list
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.highlight:
       anchor_linenums: true
+  - toc:
+      permalink: true
+  - md_in_html
+  - admonition
+  - codehilite
+  - def_list
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
   - sane_lists
 plugins:
+  - blog
   - search
 extra:
   social:
     - icon: fontawesome/brands/gitlab
-      link: https://gitlab.catedras.linti.unlp.edu.ar/python2024/
+      link: "https://gitlab.catedras.linti.unlp.edu.ar/python-2025/"
     - icon: fontawesome/brands/discord
-      link: "https://discord.gg/WW2v5Rq3Ke"
+      link: "#"
     - icon: fontawesome/solid/book
       link: "#"
     - icon: fontawesome/solid/envelope

@@ -1,9 +1,20 @@
+---
+date: 2022-08-05
+categories:
+  - Bash
+  - Terminal
+  - SSH
+  - Setup
+---
+
 # SSH
 
 La idea de esta guía es generar una clave ssh en la máquina en donde vamos a
 trabajar durante la cursada para luego agregarla a el servidor Gitlab.
 Con este método de seguridad vamos a evitar tener que completar usuario y clave
 cada vez que realicemos una operación hacia el servidor.
+
+<!-- more -->
 
 ## Requisitos
 
@@ -20,7 +31,6 @@ ssh-keygen -t rsa -b 2048 -C "email@example.com"
 ```
 
 !!! warning
-
     Recuerda poner tu email en lugar de usar "email@example.com".
 
 Se debe visualizar una respuesta similar a:
@@ -45,8 +55,8 @@ Este passphrase no es obligatorio así que puede dejarlo en blanco
 pulsando nuevamente la tecla Enter.
 
 !!! Info
-Si necesita cambiar esta passphrase en algún momento puede ejecutar el siguiente
-comando
+    Si necesita cambiar esta passphrase en algún momento puede ejecutar el siguiente
+    comando
 
     ```bash
     ssh-keygen -p -f /path/to/ssh_key
@@ -87,5 +97,5 @@ En nuesto caso, la clave pública deberá ser configurada en el servicio de
 el repositorio. Esto evita que tengamos que ingresar usuario y clave en cada
 operación.
 
-En la [siguiente guía](../06/ssh_gitlab.md) se explica como dar de alta nuestra clave ssh en
-[**Gitlab**](https://gitlab.catedras.linti.unlp.edu.ar/)
+En la [siguiente guía](03_ssh_gitlab.md) se explica como dar de alta nuestra clave
+ssh en [**Gitlab**](https://gitlab.catedras.linti.unlp.edu.ar/)

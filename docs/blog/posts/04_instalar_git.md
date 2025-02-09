@@ -1,10 +1,15 @@
+---
+date: 2023-04-22
+categories:
+  - Git
+  - Instalación
+---
+
 # Guía de Git
 
-Git es una herramienta fundamental a la hora de escribir código y aún más
-importante cuando lo hacemos de forma colaborativa.
+En la explicación práctica hablamos sobre los conceptos de `git`.
 
-Esta guía te mostrará distintas formas de instalar la herramienta en tu máquina
-para comenzar a utilizarla.
+<!-- more -->
 
 ## Instalación
 
@@ -12,13 +17,7 @@ para comenzar a utilizarla.
 
 ```bash
 sudo apt update
-```
-
-```bash
 sudo apt upgrade
-```
-
-```bash
 sudo apt install git
 ```
 
@@ -26,14 +25,9 @@ sudo apt install git
 
 ```bash
 sudo yum upgrade
-```
-
-```bash
 sudo yum install git
 ```
-
 ### En Arch-based
-
 ```bash
 sudo pacman -S git
 ```
@@ -50,15 +44,22 @@ Descargar en instalar de [gitforwindows](https://gitforwindows.org/) o de
 [git-scm](https://git-scm.com/download/win). Tener en cuenta que en la cátedra
 vamos a utilizar `GitBash` por lo cual deben asegurarse que se instale.
 
-## Configurar información en Git
+## ¿Cómo usar Git?
+
+Vamos a ver dos formas para comenzar a trabajar con `Git`:
+
+- Creando un repositorio desde cero y agregando los archivos iniciales.
+- Descargando un proyecto ya creado y modificarlo.
+
+### Configurar información en Git
 
 En `git` cuando se va a realizar una operación para generar una nueva versión del
 código es necesario contar con información de usuario. Por esto es necesario que
 configuremos lo siguiente:
 
 ```bash
-git config --global user.name "John Doe"
-git config --global user.email johndoe@example.com
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
 ```
 
 Para ver la configuración:

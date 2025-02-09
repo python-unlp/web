@@ -1,3 +1,10 @@
+---
+date: 2023-04-29
+categories:
+  - Python
+  - Entornos virtuales
+---
+
 # Entornos virtuales
 
 **venv** es una herramienta usada para crear un ambiente aislado de
@@ -10,6 +17,8 @@ cada entorno virtual.
 Es útil hacer esta separación porque en el desarrollo de software es muy común
 que queramos usar en distintos proyectos distintas versiones de la misma
 librería.
+
+<!-- more -->
 
 Por ejemplo, podemos tener un proyecto que hicimos hace un tiempo que usa una
 versión de `numpy` que ahora no es la última. Para ese proyecto puede estar

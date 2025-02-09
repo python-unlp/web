@@ -1,3 +1,11 @@
+---
+date: 2024-03-02
+categories:
+  - Python
+  - Módulos
+  - Paquetes
+---
+
 # Módulos y paquetes
 
 Python permite organizar el código en al menos 2 formas:
@@ -11,6 +19,7 @@ Python permite organizar el código en al menos 2 formas:
     * Permiten agrupar módulos y otros paquetes.
     * Se pueden importar desde módulos.
 
+<!-- more -->
 
 Casos de uso
 ------------

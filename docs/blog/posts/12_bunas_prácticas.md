@@ -1,4 +1,16 @@
+---
+date: 2023-05-20
+categories:
+  - Python
+  - Buenas prácticas
+---
+
 # Buenas prácticas en python
+
+En este post vamos a ver algunas buenas prácticas que podemos aplicar en Python.
+Son pequeños tips que nos pueden ayudar a escribir un código más limpio y legible.
+
+<!-- more -->
 
 ## Virtualenv
 

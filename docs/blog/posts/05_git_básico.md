@@ -1,6 +1,11 @@
-# Git básico
+---
+date: 2023-04-24
+categories:
+  - Git
+  - Instalación
+---
 
-## Introducción
+# Git básico
 
 Como ya vimos **Git** es una herramienta muy buena que nos permite manejar
 versiones de nuestro código de manera distribuida con nuestro equipo de
@@ -11,6 +16,8 @@ Git** aparte de tener la herramienta instalada en su máquina.
 
 En esta oportunidad vamos a analizar un poco [GitHub](https://github.com/) que
 es el **Servidor de Git** más popular actualmente.
+
+<!-- more -->
 
 ## Crear una cuenta de Github
 
@@ -23,7 +30,7 @@ Ahora vamos a crear nuestro primer repositorio en **Git**, agregarle algunos
 archivos y publicarlos en el Servidor de git GitHub.
 
 Realiza la instalación de la herramienta **Git** en tu máquina. Tienes una guía
-provista por la cátedra en el [siguiente enlace](../03/git.md).
+provista por la cátedra en el [siguiente enlace](#).
 
 !!! info
 
@@ -42,7 +49,7 @@ mkdir ejemplo_python
 git init
 ```
 
-![Git Init](img/01_git_init.png)
+![Git Init](img/05-01_git_init.png)
 
 Mueve dentro de este directorio el programa `run.py` que escribiste en el punto
 2 de la sección Python.
@@ -57,7 +64,7 @@ Ahora notarás que hay cambios en tu **repositorio Git local**:
 git status
 ```
 
-![Create app](img/02_git_status.png)
+![Create app](img/05-02_git_status.png)
 
 !!! warning
 Recorda siempre elegir un mensaje adecuado para los commits cuando uses **Git**.
@@ -68,7 +75,7 @@ Para agregar este archivo al versionado de **Git** debemos ejecutar:
 git add app.py
 ```
 
-![Git add](img/03_git_status.png)
+![Git add](img/05-03_git_status.png)
 
 Procede a crear el primer commit con ese archivo.
 
@@ -76,17 +83,17 @@ Procede a crear el primer commit con ese archivo.
 git commit -m "Mensaje de commit"
 ```
 
-![Git commit](img/04_git_commit_log.png)
+![Git commit](img/05-04_git_commit_log.png)
 
 Agrega un `README.md` que servirá de documentación para el repositorio donde
 esté el nombre y número de alumno escrito. Modifica la aplicación principal
 también. **Nuevamente notarás cambios en el repositorio local**.
 
-![Git status](img/05_status.png)
+![Git status](img/05-05_status.png)
 
 Crea un segundo commit
 
-![Git Commit](img/06_commit.png)
+![Git Commit](img/05-06_commit.png)
 
 Hasta el momento todos las acciones realizadas fueron en tu máquina.
 
@@ -99,12 +106,12 @@ compartirlo.
     Para esto es necesario que tengas una cuenta en Github así que si no
     cuentas con una aún puedes [crearla aquí](https://github.com/join).
 
-![Create repo](img/07_create_repo.png)
+![Create repo](img/05-07_create_repo.png)
 
 Para usar GitHub de forma segura tienes dos opciones:
 
 - Generar una clave SSH y agregarla al usuario (Este es lo recomandado. Seguir
-  la guía de [SSH](../05/ssh.md)).
+  la guía de [SSH](#)).
 - Usar el método HTTP, pero deberás escribir tu usuario y contraseña para cada
   operación con el servidor Github.
 
