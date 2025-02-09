@@ -54,6 +54,7 @@ python -m venv venv
 ```
 
 !!! warning
+
     Recuerden tener en cuenta tener configurada la versión de Python con la que
     quieren arrancar el proyecto. En nuestro caso la versión `3.11`
 

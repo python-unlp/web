@@ -30,7 +30,7 @@ Ahora vamos a crear nuestro primer repositorio en **Git**, agregarle algunos
 archivos y publicarlos en el Servidor de git GitHub.
 
 Realiza la instalación de la herramienta **Git** en tu máquina. Tienes una guía
-provista por la cátedra en el [siguiente enlace](#).
+provista por la cátedra en el [siguiente enlace](04_instalar_git.md).
 
 !!! info
 
@@ -67,7 +67,8 @@ git status
 ![Create app](img/05-02_git_status.png)
 
 !!! warning
-Recorda siempre elegir un mensaje adecuado para los commits cuando uses **Git**.
+
+    Recorda siempre elegir un mensaje adecuado para los commits cuando uses **Git**.
 
 Para agregar este archivo al versionado de **Git** debemos ejecutar:
 
@@ -111,7 +112,7 @@ compartirlo.
 Para usar GitHub de forma segura tienes dos opciones:
 
 - Generar una clave SSH y agregarla al usuario (Este es lo recomandado. Seguir
-  la guía de [SSH](#)).
+  la guía de [SSH](02_ssh.md)).
 - Usar el método HTTP, pero deberás escribir tu usuario y contraseña para cada
   operación con el servidor Github.
 

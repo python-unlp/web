@@ -101,30 +101,30 @@ brew install pyenv
 Para buscar que versión de **Python** queremos instalar podemos usar:
 
 ```bash
-pyenv install 3.6.8
+pyenv install 3.12.9
 ```
 
 Ahora podemos seleccionar esta versión como global
 
 ```bash
-pyenv global 3.6.8
+pyenv global 3.12.9
 ```
 
 o como versión local en el directorio que nos encontremos
 
 ```bash
-pyenv local 3.6.8
+pyenv local 3.12.9
 ```
 
 ## Instalación en Windows
 
 Estos son los enlaces para los ejecutables de Windows:
 
-- [Instalador ejecutable para Windows 32bits](https://www.python.org/ftp/python/3.10.0/python-3.10.0.exe)
-- [Instalador ejecutable para Windows 64bits](https://www.python.org/ftp/python/3.10.0/python-3.10.0-amd64.exe)
+- [Instalador ejecutable para Windows 32bits](https://www.python.org/ftp/python/3.12.9/python-3.12.9.exe)
+- [Instalador ejecutable para Windows 64bits](https://www.python.org/ftp/python/3.12.9/python-3.12.9-amd64.exe)
 
 Si necesita alguna alternativa distinta pueda obtener más opciones en el
-[siguiente enlace](https://www.python.org/downloads/release/python-3100/).
+[siguiente enlace](https://www.python.org/downloads/release/python-3129/).
 
 Al descargar el instalador debe ejecutarlo y seguir los pasos que ofrece.
 La primer ventana que se puede visualizar el la siguiente:
