@@ -50,8 +50,8 @@ markdown_extensions:
   - codehilite
   - def_list
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
@@ -60,7 +60,6 @@ markdown_extensions:
   - sane_lists
 plugins:
   - search
-  - mkdocs-video
 extra:
   social:
     - icon: fontawesome/brands/gitlab
