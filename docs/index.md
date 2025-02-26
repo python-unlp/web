@@ -24,7 +24,7 @@ y la consolidación del aprendizaje mediante la realización de un proyecto pers
     Portal oficial de la cátedra donde encontrarás información relevante sobre la materia, enunciados
     de trabajos prácticos, el foro de consultas y otros recursos útiles.
 
-    [:octicons-arrow-right-24: Ir](#)
+    [:octicons-arrow-right-24: Ir](https://catedras.linti.unlp.edu.ar/course/view.php?id=1270)
 
 -   :fontawesome-brands-discord:{ .lg .middle } __Server de Discord__
 
