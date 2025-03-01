@@ -17,7 +17,7 @@ La clave SSH es necesaria para poder realizar operaciones de Git de forma segura
    se puede ver en [esta guía](02_ssh.md).
 2. Luego debe ir al Gitlab de la cátedra https://gitlab.catedras.linti.unlp.edu.ar/
    e iniciar sesión.
-3. Selecciona en tu avatar en la esquina superior derecha y hace click en
+3. Selecciona en tu avatar en la esquina superior derecha y haz click en
    **Cónfiguración**.
     ![Configuración Gitlab](img/03-01_gitlab_ssh.jpg)
 4. Selecciona **Claves SSH**.

@@ -55,20 +55,20 @@ python -m venv venv
 
 !!! warning
 
-    Recuerden tener en cuenta tener configurada la versión de Python con la que
-    quieren arrancar el proyecto. En nuestro caso la versión `3.11`
+    Recuerden tener configurada la versión de Python con la que quieren arrancar el proyecto.
+    En nuestro caso la versión `3.12.x`
 
     Se pueden asegurar ejecutando:
 
     `$ python --version`
 
     Si la versión no coincide e instalaron **Python** con venv, pueden usar
-    `pyenv global 3.11.x` para configurarla o bien `pyenv shell 3.11.x` para
+    `pyenv global 3.12.x` para configurarla o bien `pyenv shell 3.12.x` para
     usarla temporalmente (donde `x` es el último dígito de la versión específica
     que instalaron).
 
 Ya estamos listos para usar nuestro entorno virtual. Tanto la versión de
-**Python** con las librerías se van a almacenar dentro del directorio `venv`
+**Python** como las librerías se van a almacenar dentro del directorio `venv`
 creado.
 
 ## ¿Como usar mi entorno virtual?

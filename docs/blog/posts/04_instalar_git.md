@@ -40,7 +40,7 @@ brew install git
 
 ### En Windows
 
-Descargar en instalar de [gitforwindows](https://gitforwindows.org/) o de
+Descargar el instalar de [gitforwindows](https://gitforwindows.org/) o de
 [git-scm](https://git-scm.com/download/win). Tener en cuenta que en la cátedra
 vamos a utilizar `GitBash` por lo cual deben asegurarse que se instale.
 

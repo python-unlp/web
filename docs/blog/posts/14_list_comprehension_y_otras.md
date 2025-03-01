@@ -37,9 +37,11 @@ Como veremos la notación por comprensión de Python se parece mucho a este últ
 
 ### Notación por comprensión en Python
 
-La notación por comprensión en Python se puede usar para construir listas, conjuntos, diccionarios y generadores. Todos son muy similares, pero por simplicidad empezaremos definiendo listas.
+La notación por comprensión en Python se puede usar para construir listas, conjuntos, diccionarios y generadores.
+Todos son muy similares, pero por simplicidad empezaremos definiendo listas.
 
-Tomaremos el ejemplo de la sección anterior queremos generar una lista de los "números naturales impares menores que diez". Se puede escribir una list comprehension de Python que tenga esos valores
+Tomaremos el ejemplo de la sección anterior: queremos generar una lista de los "números naturales impares menores que diez".
+Se puede escribir una list comprehension de Python que tenga esos valores
 de la siguiente forma:
 
 ```python
@@ -81,7 +83,8 @@ En este caso como programadores al leer la palabra `list` nos queda claro que es
 
 #### Volviendo a la list comprehension
 
-La notación por comprensión es un concepto básico y difundido de las matemáticas. También es una notación que es usada distintos lenguajes de diferentes paradigmas.
+La notación por comprensión es un concepto básico y difundido de las matemáticas.
+También es una notación que es usada en distintos lenguajes de diferentes paradigmas.
 
 ```python
 [n for n in range(1, 10) if n % 2 != 0]

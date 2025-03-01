@@ -546,7 +546,7 @@ print(filtered)
 
 Todas las funciones que vimos anteriormente son eficientes. Lo son porque
 lo que terminan devolviendo internamente son generadores. Los generadores nos
-permiten devolver parcialmente elementos en una iteración si tener que
+permiten devolver parcialmente elementos en una iteración sin tener que
 procesar toda la estructura.
 
 ### Iterar hasta numeros muy grandes

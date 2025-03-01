@@ -174,9 +174,10 @@ Esto te ayudará a entender la condición mirando de arriba hacia abajo.
 - Evite los import relativos utilice import absolutos
 - Nunca use `*` en los imports. Siempre sea explícito sobre lo que va a importar
 - Los imports deben escribirse en el siguiente orden separados por una línea:
-  - Módulos build-in (que vienen con Python)
-  - Módulos third-party (paquetes externos que instaló)
-  - Módulos del proyecto actual
+    1. Módulos build-in (que vienen con Python)
+    2. Módulos third-party (paquetes externos que instaló)
+    3. Módulos del proyecto actual
+
 ```python
   import os
   import logging
@@ -186,6 +187,7 @@ Esto te ayudará a entender la condición mirando de arriba hacia abajo.
 
   from app.models.user import user
 ```
+
 ## Malas ideas
 
 - Variables globales

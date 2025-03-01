@@ -43,7 +43,7 @@ Enter file in which to save the key (/home/user/.ssh/id_rsa):
 Presione la tecla Enter para guardar las llaves en el subdirectorio `.ssh/`
 dentro del directorio de su usuario. Sino puede completar una ruta alternativa.
 
-Luego de guardar la clave le pedirá que inserte in passphrase como una instancia
+Luego de guardar la clave le pedirá que inserte un passphrase como una instancia
 más de seguridad.
 
 ```bash

@@ -69,10 +69,6 @@ Una vez creado nuestro archivo notebook, solo basta con escribir código Python 
 
 La herramienta es muy flexible y permite no solo el uso de librerías externas, sino tambien referenciar a otros archivos dentro del proyecto.
 
-!!! info
-
-    Algunos ejemplos pueden encontrarse en [este repositorio de Github](https://github.com/ipython/ipython/blob/master/examples/IPython%20Kernel/Rich%20Output.ipynb).
-
 En el caso de utilizar alguna librería de Python, debemos primero instalarla en nuestro sistema.
 Por ejemplo en el caso de [`matplotlib`](https://matplotlib.org/stable/users/getting_started/index.html#installation-quick-start)
 

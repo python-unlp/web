@@ -127,7 +127,7 @@ Si necesita alguna alternativa distinta pueda obtener más opciones en el
 [siguiente enlace](https://www.python.org/downloads/release/python-3129/).
 
 Al descargar el instalador debe ejecutarlo y seguir los pasos que ofrece.
-La primer ventana que se puede visualizar el la siguiente:
+La primer ventana que se puede visualizar es la siguiente:
 
 <center>
 ![Python Windows installer 1](img/07-01_win.png)
