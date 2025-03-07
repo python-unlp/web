@@ -33,7 +33,7 @@ y la consolidación del aprendizaje mediante la realización de un proyecto pers
     Accede al servidor de Discord de la cátedra para comunicarte con tus compañeros y docentes
     de manera más directa.
 
-    [:octicons-arrow-right-24: Ir](https://discord.gg/WW2v5Rq3Ke)
+    [:octicons-arrow-right-24: Ir](https://discord.gg/fbYUWXDD8w)
 
 
 -   :fontawesome-brands-gitlab:{ .lg .middle } __Repositorio de código__
