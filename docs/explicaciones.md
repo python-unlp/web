@@ -2,6 +2,6 @@
 
 Aquí encontrarán las grabaciones de las explicaciones prácticas de la cátedra.
 
-!!! info Paciencia
+## Clase 0: Presentación + git
 
-    Puede que tome unos días tener las grabaciones disponibles dado que debemos procesarlas y subirlas al canal de YouTube.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3aoMTcK52_8" title="Clase 0: Presentación + git" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
