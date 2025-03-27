@@ -44,6 +44,10 @@ Descargar el instalar de [gitforwindows](https://gitforwindows.org/) o de
 [git-scm](https://git-scm.com/download/win). Tener en cuenta que en la cátedra
 vamos a utilizar `GitBash` por lo cual deben asegurarse que se instale.
 
+#### Tutorial para instalar Git en Windows
+
+<iframe width="560" height="315" src="https://youtu.be/BVYCI62_rHM" title="Instalar Git en Windows" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## ¿Cómo usar Git?
 
 Vamos a ver dos formas para comenzar a trabajar con `Git`:
