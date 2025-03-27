@@ -46,7 +46,7 @@ vamos a utilizar `GitBash` por lo cual deben asegurarse que se instale.
 
 #### Tutorial para instalar Git en Windows
 
-<iframe width="560" height="315" src="https://youtu.be/BVYCI62_rHM" title="Instalar Git en Windows" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BVYCI62_rHM?si=E90Fg8sg0KLcF80G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## ¿Cómo usar Git?
 

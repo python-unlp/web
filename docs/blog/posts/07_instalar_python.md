@@ -181,4 +181,4 @@ En esta terminal interactiva ya podemos ejecutar código Python.
 
 #### Video de Instalación de Python en windows
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=BQdkktjveS4" title="Instalar Python en Windows" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BQdkktjveS4?si=XLhIvlI3nymA6BHm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
